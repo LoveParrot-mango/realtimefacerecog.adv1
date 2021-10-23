@@ -55,3 +55,27 @@ sub{
     height: 250px;
     width: 170px;
 }
+
+.copy_right_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: #7e2e1f;
+    line-height: 3;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#name_button, #acc_button {
+    background-color: crimson;
+    border: crimson;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    float: left;
+}
